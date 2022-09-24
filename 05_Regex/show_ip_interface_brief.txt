@@ -1,0 +1,13 @@
+
+
+
+CSR-17.31-new#terminal len 0
+CSR-17.31-new#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.0.63    YES NVRAM  up                    up      
+GigabitEthernet2       unassigned      YES NVRAM  up                    up      
+GigabitEthernet3       unassigned      YES NVRAM  up                    up      
+GigabitEthernet4       unassigned      YES NVRAM  up                    up      
+Loopback1001           10.1.1.100      YES NVRAM  up                    up      
+Loopback1002           20.1.1.100      YES NVRAM  administratively down                    up
+CSR-17.31-new#

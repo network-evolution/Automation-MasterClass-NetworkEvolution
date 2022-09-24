@@ -1,0 +1,3 @@
+show running-config
+show version
+show ip interface brief

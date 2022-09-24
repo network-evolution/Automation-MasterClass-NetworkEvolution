@@ -1,0 +1,19 @@
+
+
+
+CSR-17.31-new#terminal len 0
+CSR-17.31-new#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+CSR-17.31-new(config)#int lo1001
+CSR-17.31-new(config-if)#ip address 1.1.1.1 255.255.255.0
+CSR-17.31-new(config-if)#end
+CSR-17.31-new#show run int lo1001
+Building configuration...
+
+Current configuration : 64 bytes
+!
+interface Loopback1001
+ ip address 1.1.1.1 255.255.255.0
+end
+
+CSR-17.31-new#

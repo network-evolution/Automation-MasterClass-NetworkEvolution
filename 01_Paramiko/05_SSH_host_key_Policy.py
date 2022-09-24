@@ -15,10 +15,10 @@ csr_cmd = ['config t', 'int lo1001', 'ip address 1.1.1.1 255.255.255.0', 'end']
 def cisco_cmd_executor(hostname, commands):
     print(f"Connecting to the device {hostname}..")
     ssh_client = client.SSHClient()
-    # ssh_client.set_missing_host_key_policy(client.AutoAddPolicy())
+    ssh_client.set_missing_host_key_policy(client.AutoAddPolicy())
     # ssh_client.load_system_host_keys()
     # ssh_client.load_host_keys(filename='/home/evolve/.ssh/known_hosts')
-    ssh_client.set_missing_host_key_policy(client.WarningPolicy)
+    # ssh_client.set_missing_host_key_policy(client.WarningPolicy)
     ssh_client.connect(hostname=hostname, port=22, username=username, password=password, look_for_keys=False,
                        allow_agent=False)
 
