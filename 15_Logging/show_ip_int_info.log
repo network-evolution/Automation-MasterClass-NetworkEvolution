@@ -1,0 +1,96 @@
+2022-09-28 17:20:45,289 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 17:20:45,827 - interface_parser - INFO - Connected Successfully
+2022-09-28 17:20:45,832 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-28 17:20:48,835 - interface_parser - INFO - Received Output
+2022-09-28 17:20:48,835 - interface_parser - INFO - Storing parsed output
+2022-09-28 17:25:17,395 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 17:25:19,923 - interface_parser - WARNING - Authentication Failed
+2022-09-28 17:25:49,931 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 17:25:52,404 - interface_parser - INFO - Authentication Failed
+2022-09-28 20:43:28,532 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 20:43:31,020 - interface_parser - CRITICAL - Authentication Failed
+2022-09-28 20:45:51,560 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 20:45:52,156 - interface_parser - INFO - Connected Successfully
+2022-09-28 20:45:52,160 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-28 20:45:55,163 - interface_parser - INFO - Received Output
+2022-09-28 20:45:55,164 - interface_parser - CRITICAL - Loopback 1001 is Down
+2022-09-28 20:45:59,676 - interface_parser - INFO - Storing parsed output
+2022-09-28 20:46:33,002 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-28 20:46:33,527 - interface_parser - INFO - Connected Successfully
+2022-09-28 20:46:33,532 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-28 20:46:36,536 - interface_parser - INFO - Received Output
+2022-09-28 20:46:36,537 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:37:50,334 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:37:50,836 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:37:50,841 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:37:53,843 - interface_parser - INFO - Received Output
+2022-09-29 00:37:53,843 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:37:58,849 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:37:59,359 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:37:59,363 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:02,365 - interface_parser - INFO - Received Output
+2022-09-29 00:38:02,379 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:38:07,384 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:38:08,022 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:38:08,033 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:11,035 - interface_parser - INFO - Received Output
+2022-09-29 00:38:11,035 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:38:16,039 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:38:16,558 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:38:16,563 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:19,565 - interface_parser - INFO - Received Output
+2022-09-29 00:38:19,565 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:38:24,571 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:38:25,063 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:38:25,067 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:28,071 - interface_parser - INFO - Received Output
+2022-09-29 00:38:28,072 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:38:33,076 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:38:33,569 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:38:33,573 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:36,575 - interface_parser - INFO - Received Output
+2022-09-29 00:38:36,575 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:38:41,581 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:38:42,118 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:38:42,122 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:38:45,123 - interface_parser - INFO - Received Output
+2022-09-29 00:38:45,124 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:39:24,951 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:39:25,554 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:39:25,561 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:39:28,563 - interface_parser - INFO - Received Output
+2022-09-29 00:39:28,564 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:39:48,583 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:39:49,089 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:39:49,093 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:39:52,096 - interface_parser - INFO - Received Output
+2022-09-29 00:39:52,097 - interface_parser - CRITICAL - Loopback 1001 is Down
+2022-09-29 00:39:56,807 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:40:16,825 - interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:40:17,375 - interface_parser - INFO - Connected Successfully
+2022-09-29 00:40:17,381 - interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:40:20,383 - interface_parser - INFO - Received Output
+2022-09-29 00:40:20,383 - interface_parser - CRITICAL - Loopback 1001 is Down
+2022-09-29 00:40:24,760 - interface_parser - INFO - Storing parsed output
+2022-09-29 00:42:31,785 - 10195-  interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:42:32,300 - 10195-  interface_parser - INFO - Connected Successfully
+2022-09-29 00:42:32,304 - 10195-  interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:42:35,307 - 10195-  interface_parser - INFO - Received Output
+2022-09-29 00:42:35,308 - 10195-  interface_parser - INFO - Storing parsed output
+2022-09-29 00:42:55,329 - 10195-  interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:42:55,819 - 10195-  interface_parser - INFO - Connected Successfully
+2022-09-29 00:42:55,823 - 10195-  interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:42:58,827 - 10195-  interface_parser - INFO - Received Output
+2022-09-29 00:42:58,829 - 10195-  interface_parser - INFO - Storing parsed output
+2022-09-29 00:43:18,850 - 10195-  interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:43:19,365 - 10195-  interface_parser - INFO - Connected Successfully
+2022-09-29 00:43:19,369 - 10195-  interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:43:22,373 - 10195-  interface_parser - INFO - Received Output
+2022-09-29 00:43:22,373 - 10195-  interface_parser - CRITICAL - Loopback 1001 is Down
+2022-09-29 00:43:26,175 - 10195-  interface_parser - INFO - Storing parsed output
+2022-09-29 00:43:46,193 - 10195-  interface_parser - INFO - Connecting to the Device 192.168.0.63
+2022-09-29 00:43:46,698 - 10195-  interface_parser - INFO - Connected Successfully
+2022-09-29 00:43:46,725 - 10195-  interface_parser - INFO - Executing 'show ip interface brief'
+2022-09-29 00:43:49,728 - 10195-  interface_parser - INFO - Received Output
+2022-09-29 00:43:49,728 - 10195-  interface_parser - CRITICAL - Loopback 1001 is Down
+2022-09-29 00:43:53,871 - 10195-  interface_parser - INFO - Storing parsed output

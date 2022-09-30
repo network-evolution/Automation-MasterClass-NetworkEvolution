@@ -22,7 +22,7 @@ def cisco_cmd_executor(hostname, commands, username, password):
             output = device_access.recv(65000)
             print(output.decode(),end='')
         device_access.close()
-        print(f"\n{'#' * 10}Disconnected from the Device {hostname} {'#' * 10}")
+        print(f"\n{'#' * 10}  Disconnected from the Device {hostname} {'#' * 10}")
     except socket.gaierror:
         print("Check the hostname")
     except ssh_exception.NoValidConnectionsError:
@@ -33,5 +33,24 @@ def cisco_cmd_executor(hostname, commands, username, password):
         print("Exception occurred")
         print(sys.exc_info())
         # traceback.print_exception(*sys.exc_info())
+
+vIOS1 = {'hostname': '192.168.0.61',
+         'commands': ['int lo1001', 'no shut'],
+         'username': 'admin',
+         'password': 'admin'}
+
+vIOS2 = {'hostname': '192.168.0.62',
+         'commands': ['int lo1001', 'no shut'],
+         'username': 'admin',
+         'password': 'admin'}
+
+vIOS3 = {'hostname': '192.168.0.91',
+         'commands': ['int lo1001', 'no shut'],
+         'username': 'admin',
+         'password': 'admin'}
+
+
+cisco_cmd_executor(**vIOS1)
+cisco_cmd_executor(**vIOS2)
 
 # cisco_cmd_executor('192.168.0.63', ['int lo1001', 'no shut'], 'admin', 'admin')

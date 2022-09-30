@@ -6,6 +6,7 @@ while True:
         ip_input = input(f"\n\n{'~' * 50}\nEnter IP Address/list/exit: ")
         if ip_input == 'exit':
             print("Exiting the script")
+            break
         if ip_input == 'list':
             print(f"Current assigned list is: {sorted(ip_list)}")
             continue
@@ -23,3 +24,5 @@ while True:
 
     except ValueError:
         print("Invalid IP")
+
+

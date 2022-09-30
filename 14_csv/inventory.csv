@@ -1,0 +1,4 @@
+name,ip,vendor,os,location
+r1,1.1.1.1,cisco,ios,dc1
+r2,2.2.2.2,cisco,ios,
+r3,3.3.3.3,arista,vEOS,
