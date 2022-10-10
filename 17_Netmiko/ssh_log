@@ -1,0 +1,138 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x2de36830
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.11.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEBUG:paramiko.transport:client encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+DEBUG:paramiko.transport:server encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+DEBUG:paramiko.transport:client mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512
+DEBUG:paramiko.transport:server mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512
+DEBUG:paramiko.transport:client compress: none
+DEBUG:paramiko.transport:server compress: none
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey: rsa-sha2-512
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.0.63: b'fc2522941fd543ac23f3630200956302'
+DEBUG:paramiko.transport:Trying discovered key b'de27189ddd31fcd035b87906227b2b04' in /home/evolve/.ssh/id_rsa
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEBUG:paramiko.transport:Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEBUG:paramiko.transport:Server did not send a server-sig-algs list; defaulting to our first preferred algo ('rsa-sha2-512')
+DEBUG:paramiko.transport:NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+INFO:paramiko.transport:Authentication (publickey) failed.
+DEBUG:paramiko.transport:Trying discovered key b'842ee4e1d690b780b87edeb828a8675c' in /home/evolve/.ssh/id_rsa
+INFO:paramiko.transport:Disconnect (code 2): Protocol error: expected packet type 50, got 5
+DEBUG:paramiko.transport:Trying discovered key b'de27189ddd31fcd035b87906227b2b04' in /home/evolve/.ssh/id_rsa
+DEBUG:paramiko.transport:starting thread (client mode): 0x4fa368f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.11.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEBUG:paramiko.transport:client encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+DEBUG:paramiko.transport:server encrypt: aes128-gcm, aes256-gcm, aes128-ctr, aes192-ctr, aes256-ctr
+DEBUG:paramiko.transport:client mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512
+DEBUG:paramiko.transport:server mac: hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha2-512
+DEBUG:paramiko.transport:client compress: none
+DEBUG:paramiko.transport:server compress: none
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey: rsa-sha2-512
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.0.63: b'fc2522941fd543ac23f3630200956302'
+DEBUG:paramiko.transport:Trying discovered key b'de27189ddd31fcd035b87906227b2b04' in /home/evolve/.ssh/id_rsa
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEBUG:paramiko.transport:Our pubkey algorithm list: ['ssh-rsa']
+DEBUG:paramiko.transport:Server did not send a server-sig-algs list; defaulting to our first preferred algo ('ssh-rsa')
+DEBUG:paramiko.transport:NOTE: you may use the 'disabled_algorithms' SSHClient/Transport init kwarg to disable that or other algorithms if your server does not support them!
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:read_channel: 
+
+CSR-17.31#
+CSR-17.31#
+DEBUG:netmiko:read_channel: terminal 
+DEBUG:netmiko:read_channel: width 511
+CSR-17.31#
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+
+CSR-17.31#
+CSR-17.31#terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: terminal leng
+DEBUG:netmiko:read_channel: th 0
+CSR-17.31#
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+CSR-17.31#terminal length 0
+DEBUG:netmiko:
+CSR-17.31#terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+CSR-17.31#
+DEBUG:netmiko:Pattern found: (\#|>) 
+CSR-17.31#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is CSR-17.31#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+CSR-17.31#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is CSR-17.31#
+DEBUG:netmiko:write_channel: b'show ip int brie\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show ip
+DEBUG:netmiko:read_channel:  int br
+DEBUG:netmiko:read_channel: ie
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.0.63    YES NVRAM  up                    up      
+GigabitEthernet2       unassigned      YES NVRAM  up                    up      
+GigabitEthernet3       unassigned      YES NVRAM  up                    up      
+GigabitEthernet4       unassigned      YES NVRAM  up                    up      
+Loopback1001           1.1.1.1         YES NVRAM  up                    up      
+CSR-17.31#
+DEBUG:netmiko:Pattern found: (show\ ip\ int\ brie) show ip int brie
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+CSR-17.31#
+DEBUG:netmiko:Pattern found: ([>#]) 
+CSR-17.31#
+DEBUG:netmiko:write_channel: b'exit\n'

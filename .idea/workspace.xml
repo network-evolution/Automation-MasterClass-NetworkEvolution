@@ -21,35 +21,37 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DW8amh0J86rHlgdF5AWGZwex8e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/evolve/Documents/GitHub/Automation-MasterClass-NetworkEvolution/13_Multithreading&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/evolve/Documents/Scripts/Automation_Training_Oct/D04/02_IP_Address",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/08_modules_packages/myconflib" />
-      <recent name="$PROJECT_DIR$/07_functions" />
-      <recent name="$PROJECT_DIR$/08_packages_and_modules" />
-      <recent name="$PROJECT_DIR$/08_packages_and_modules/myconflib" />
-      <recent name="$PROJECT_DIR$/D04" />
+      <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/02_IP_Address" />
+      <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/01_Regex" />
+      <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D03/01_Regex" />
+      <recent name="$PROJECT_DIR$/17_Netmiko" />
+      <recent name="$USER_HOME$/PycharmProjects/Automation_Training_Oct/D02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/PycharmProjects/Automation_Training_Oct/D02" />
       <recent name="$PROJECT_DIR$/11_PyCharm_Debug_Example" />
       <recent name="$PROJECT_DIR$/05_Regex" />
       <recent name="$PROJECT_DIR$/D02" />
       <recent name="$PROJECT_DIR$/D01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_text_color">
-    <configuration name="01_enumerate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.04_Jinja2_Template">
+    <configuration name="01_json_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_Useful_Python_concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_Useful_Python_concepts/01_enumerate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/01_json_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_itemgetter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_yaml_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_Useful_Python_concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_Useful_Python_concepts/02_itemgetter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/02_yaml_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_sorted_and_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_xml_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_Useful_Python_concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_Useful_Python_concepts/03_sorted_and_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/03_xml_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_tabulate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_Jinja2_Template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_Useful_Python_concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_Useful_Python_concepts/04_tabulate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/04_Jinja2_Template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,19 +135,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_text_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation-MasterClass-NetworkEvolution" />
+    <configuration name="test_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Training_Oct" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_Useful_Python_concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/05_Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_Useful_Python_concepts/05_text_color.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/05_Classes/test_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_text_color" />
-        <item itemvalue="Python.04_tabulate" />
-        <item itemvalue="Python.03_sorted_and_sort" />
-        <item itemvalue="Python.02_itemgetter" />
-        <item itemvalue="Python.01_enumerate" />
+        <item itemvalue="Python.04_Jinja2_Template" />
+        <item itemvalue="Python.03_xml_file" />
+        <item itemvalue="Python.02_yaml_file" />
+        <item itemvalue="Python.01_json_data" />
+        <item itemvalue="Python.test_class" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inventory>
+	<device>
+		<name>router1</name>
+		<username>admin1</username>
+		<password>admin1</password>
+		<vendor>cisco</vendor>
+		<os>ios</os>
+	</device>
+	<device>
+		<name>arista2</name>
+		<username>admin2</username>
+		<password>admin2</password>
+		<vendor>arista</vendor>
+		<os>eos</os>
+	</device>
+	<device>
+		<name>srx3</name>
+		<username>admin3</username>
+		<password>admin3</password>
+		<vendor>juniper</vendor>
+		<os>junos</os>
+	</device>
+</inventory>

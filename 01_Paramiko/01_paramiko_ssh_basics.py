@@ -25,7 +25,7 @@ print("Connected successfully")
 device_access = ssh_client.invoke_shell()
 device_access.send("terminal len 0\n")
 device_access.send("show run\n")
-time.sleep(5)
+time.sleep(2)
 
 output = device_access.recv(65535)
 print(output.decode())

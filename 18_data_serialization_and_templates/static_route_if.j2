@@ -1,0 +1,6 @@
+{%- for dest_sub in dest_subs %}
+ip route {{dest_sub}} 255.255.255.0 {{dest_gw}}
+{%- endfor %}
+{%- if add_default %}
+ip route 0.0.0.0 0.0.0.0 10.1.1.1
+{%- endif %}
