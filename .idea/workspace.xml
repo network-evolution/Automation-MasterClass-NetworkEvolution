@@ -30,17 +30,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/evolve/Documents/Scripts/Automation_Training_Oct/D04/02_IP_Address",
+    "last_opened_file_path": "/home/evolve/Documents/GitHub/Automation-MasterClass-NetworkEvolution/20_Nornir",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/20_Nornir" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/02_IP_Address" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/01_Regex" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D03/01_Regex" />
       <recent name="$PROJECT_DIR$/17_Netmiko" />
-      <recent name="$USER_HOME$/PycharmProjects/Automation_Training_Oct/D02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/PycharmProjects/Automation_Training_Oct/D02" />
@@ -50,8 +50,8 @@
       <recent name="$PROJECT_DIR$/D01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04_Jinja2_Template">
-    <configuration name="01_json_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10_multiple_tasks_function">
+    <configuration name="06_tasks_napalm_get_and_cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/01_json_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/06_tasks_napalm_get_and_cli.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_yaml_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="07_task_napalm_configure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/02_yaml_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/07_task_napalm_configure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_xml_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="08_Netmiko_send_command" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/03_xml_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/08_Netmiko_send_command.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_Jinja2_Template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="09_netmiko_send_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_data_serialization_and_templates" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_data_serialization_and_templates/04_Jinja2_Template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/09_netmiko_send_config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,19 +135,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Training_Oct" />
+    <configuration name="10_multiple_tasks_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/05_Classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/05_Classes/test_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/10_multiple_tasks_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.04_Jinja2_Template" />
-        <item itemvalue="Python.03_xml_file" />
-        <item itemvalue="Python.02_yaml_file" />
-        <item itemvalue="Python.01_json_data" />
-        <item itemvalue="Python.test_class" />
+        <item itemvalue="Python.10_multiple_tasks_function" />
+        <item itemvalue="Python.09_netmiko_send_config" />
+        <item itemvalue="Python.08_Netmiko_send_command" />
+        <item itemvalue="Python.07_task_napalm_configure" />
+        <item itemvalue="Python.06_tasks_napalm_get_and_cli" />
       </list>
     </recent_temporary>
   </component>

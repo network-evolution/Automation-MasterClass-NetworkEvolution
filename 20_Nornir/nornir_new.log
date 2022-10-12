@@ -1,0 +1,291 @@
+2022-10-13 00:48:32,636 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces']} on 3 hosts
+2022-10-13 00:48:32,637 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 00:48:32,638 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 00:48:32,640 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:06:10,444 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:06:10,444 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:06:10,445 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:06:10,446 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:09:38,599 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:09:38,599 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:09:38,601 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:09:38,601 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:12:28,761 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 2 hosts
+2022-10-13 01:12:28,761 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:12:28,761 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:13:20,224 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 1 hosts
+2022-10-13 01:13:20,230 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:14:29,455 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 1 hosts
+2022-10-13 01:14:29,456 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:15:19,135 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 1 hosts
+2022-10-13 01:15:19,136 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:16:25,082 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:16:25,083 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:16:25,084 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:16:25,084 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:24:41,159 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:24:41,160 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:24:41,160 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:24:41,161 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:28:18,375 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:28:18,376 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:28:18,377 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:28:18,378 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:28:19,715 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:28:19,715 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:28:19,716 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:28:19,716 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:28:46,698 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:28:46,700 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:28:46,704 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:28:46,704 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:28:48,005 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:28:48,006 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:28:48,006 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:28:48,006 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:40:19,330 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:40:19,331 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:40:19,331 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:40:19,333 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:40:20,591 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:40:20,591 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:40:20,591 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:40:20,592 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:41:18,930 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:41:18,931 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:41:18,932 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:41:18,932 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:41:20,314 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:41:20,314 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:41:20,314 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:41:20,314 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:41:35,634 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:41:35,635 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:41:35,635 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:41:35,637 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:41:36,986 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:41:36,986 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:41:36,986 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:41:36,987 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:48:32,007 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:48:32,008 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:48:32,008 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:48:32,009 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:48:33,259 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'configuration': 'interface loopback1005'} on 3 hosts
+2022-10-13 01:48:33,260 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:48:33,260 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:48:33,260 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:48:33,272 - nornir.core.task -    ERROR -      start() - Host 'rtr2': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:48:33,272 - nornir.core.task -    ERROR -      start() - Host 'rtr1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:48:33,272 - nornir.core.task -    ERROR -      start() - Host 'rtr3': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:49:18,948 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:49:18,949 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:49:18,949 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:49:18,952 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:49:20,226 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'configuration': 'interface loopback1005'} on 3 hosts
+2022-10-13 01:49:20,227 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:49:20,227 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:49:20,227 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:49:20,228 - nornir.core.task -    ERROR -      start() - Host 'rtr1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:49:20,228 - nornir.core.task -    ERROR -      start() - Host 'rtr2': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:49:20,229 - nornir.core.task -    ERROR -      start() - Host 'rtr3': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() got an unexpected keyword argument 'configuration'
+
+2022-10-13 01:49:52,055 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:49:52,056 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:49:52,057 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:49:52,058 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:49:53,527 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': 'interface loopback1005'} on 3 hosts
+2022-10-13 01:49:53,528 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 01:49:53,528 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 01:49:53,529 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 01:50:27,275 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces_ip']} on 3 hosts
+2022-10-13 01:50:27,276 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_get'
+2022-10-13 01:50:27,276 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_get'
+2022-10-13 01:50:27,277 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_get'
+2022-10-13 01:50:28,536 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': 'no interface loopback1005'} on 3 hosts
+2022-10-13 01:50:28,537 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 01:50:28,537 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 01:50:28,537 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 01:54:44,177 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': '["show version", "show ip interface brief"]'} on 3 hosts
+2022-10-13 01:54:44,178 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:54:44,178 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:54:44,180 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:54:44,820 - nornir.core.task -    ERROR -      start() - Host 'rtr2': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-10-13 01:54:44,912 - nornir.core.task -    ERROR -      start() - Host 'rtr3': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-10-13 01:54:45,044 - nornir.core.task -    ERROR -      start() - Host 'rtr1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-10-13 01:55:13,562 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:55:13,562 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:55:13,563 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:55:13,571 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:57:59,186 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show version', 'show ip interface brief']} on 3 hosts
+2022-10-13 01:57:59,194 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:57:59,195 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:57:59,195 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:58:34,475 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 3 hosts
+2022-10-13 01:58:34,475 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:58:34,477 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:58:34,477 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 01:59:50,927 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 3 hosts
+2022-10-13 01:59:50,927 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 01:59:50,928 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 01:59:50,928 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:03:15,972 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': 'interface loopback1005'} on 3 hosts
+2022-10-13 02:03:15,972 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 02:03:15,979 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 02:03:15,981 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 02:03:33,653 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 3 hosts
+2022-10-13 02:03:33,654 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 02:03:33,654 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 02:03:33,654 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:04:10,625 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'configuration': 'no interface loopback1005'} on 3 hosts
+2022-10-13 02:04:10,626 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 02:04:10,626 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 02:04:10,627 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 02:04:28,359 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 3 hosts
+2022-10-13 02:04:28,360 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 02:04:28,360 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 02:04:28,360 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:06:05,058 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'filename': 'add_routes.txt'} on 3 hosts
+2022-10-13 02:06:05,059 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 02:06:05,060 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 02:06:05,062 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 02:06:22,006 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run | i ip route']} on 3 hosts
+2022-10-13 02:06:22,006 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 02:06:22,007 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 02:06:22,007 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:07:00,984 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'filename': 'remove_routes.txt'} on 3 hosts
+2022-10-13 02:07:00,984 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 02:07:00,984 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 02:07:00,985 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 02:07:17,844 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show run | i ip route']} on 3 hosts
+2022-10-13 02:07:17,845 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 02:07:17,845 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'
+2022-10-13 02:07:17,845 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:16:35,618 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show version'} on 3 hosts
+2022-10-13 02:16:35,619 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_command'
+2022-10-13 02:16:35,620 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_command'
+2022-10-13 02:16:35,620 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_command'
+2022-10-13 02:25:31,579 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'connfig_commands': ['ip route 1.1.1.1 255.255.255.255 10.10.10.10', 'ip route 1.1.1.2 255.255.255.255 10.10.10.10']} on 3 hosts
+2022-10-13 02:25:31,579 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:25:31,580 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_config'
+2022-10-13 02:25:31,581 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_config'
+2022-10-13 02:25:32,239 - nornir.core.task -    ERROR -      start() - Host 'rtr2': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 42, in netmiko_send_config
+    raise ValueError("Must specify either config_commands or config_file")
+ValueError: Must specify either config_commands or config_file
+
+2022-10-13 02:25:32,260 - nornir.core.task -    ERROR -      start() - Host 'rtr1': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 42, in netmiko_send_config
+    raise ValueError("Must specify either config_commands or config_file")
+ValueError: Must specify either config_commands or config_file
+
+2022-10-13 02:25:32,350 - nornir.core.task -    ERROR -      start() - Host 'rtr3': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/evolve/Documents/pycharm-venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 42, in netmiko_send_config
+    raise ValueError("Must specify either config_commands or config_file")
+ValueError: Must specify either config_commands or config_file
+
+2022-10-13 02:28:24,495 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['ip route 1.1.1.1 255.255.255.255 10.10.10.10', 'ip route 1.1.1.2 255.255.255.255 10.10.10.10']} on 3 hosts
+2022-10-13 02:28:24,495 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:28:24,496 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_config'
+2022-10-13 02:28:24,496 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_config'
+2022-10-13 02:28:48,748 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['no ip route 1.1.1.1 255.255.255.255 10.10.10.10', 'no ip route 1.1.1.2 255.255.255.255 10.10.10.10']} on 3 hosts
+2022-10-13 02:28:48,749 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:28:48,750 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_config'
+2022-10-13 02:28:48,750 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_config'
+2022-10-13 02:29:51,494 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'add_routes.txt'} on 3 hosts
+2022-10-13 02:29:51,500 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:29:51,501 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_config'
+2022-10-13 02:29:51,501 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_config'
+2022-10-13 02:39:13,624 -  nornir.core -     INFO -        run() - Running task 'loopback_create' with args {} on 1 hosts
+2022-10-13 02:39:13,631 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'loopback_create'
+2022-10-13 02:39:13,631 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:39:15,002 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_command'
+2022-10-13 02:39:16,666 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_save_config'
+2022-10-13 02:48:42,430 -  nornir.core -     INFO -        run() - Running task 'route_add' with args {} on 3 hosts
+2022-10-13 02:48:42,430 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'route_add'
+2022-10-13 02:48:42,430 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'route_add'
+2022-10-13 02:48:42,431 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_config'
+2022-10-13 02:48:42,431 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'route_add'
+2022-10-13 02:48:42,431 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_config'
+2022-10-13 02:48:42,432 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_config'
+2022-10-13 02:48:43,637 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_send_command'
+2022-10-13 02:48:43,828 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_send_command'
+2022-10-13 02:48:43,901 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_send_command'
+2022-10-13 02:48:44,121 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'netmiko_save_config'
+2022-10-13 02:48:45,606 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'netmiko_save_config'
+2022-10-13 02:48:45,745 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'netmiko_save_config'
+2022-10-13 02:52:07,643 -  nornir.core -     INFO -        run() - Running task 'add_route' with args {} on 3 hosts
+2022-10-13 02:52:07,644 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'add_route'
+2022-10-13 02:52:07,644 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'add_route'
+2022-10-13 02:52:07,644 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_configure'
+2022-10-13 02:52:07,644 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'add_route'
+2022-10-13 02:52:07,644 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_configure'
+2022-10-13 02:52:07,645 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_configure'
+2022-10-13 02:52:15,958 - nornir.core.task -    DEBUG -      start() - Host 'rtr3': running task 'napalm_cli'
+2022-10-13 02:52:23,116 - nornir.core.task -    DEBUG -      start() - Host 'rtr1': running task 'napalm_cli'
+2022-10-13 02:52:23,525 - nornir.core.task -    DEBUG -      start() - Host 'rtr2': running task 'napalm_cli'

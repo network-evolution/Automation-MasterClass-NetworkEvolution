@@ -1,0 +1,21 @@
+---
+rtr1:
+    hostname: 192.168.0.61
+    groups:
+        - cisco_group
+    data:
+        site: IND
+        dc: BLR
+
+
+rtr2:
+    hostname: 192.168.0.62
+    groups:
+        - cisco_group
+    data:
+        site: IND
+rtr3:
+    hostname: 192.168.0.63
+    groups:
+        - cisco_group
+
