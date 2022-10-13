@@ -1,0 +1,141 @@
+Response to Hello
+#########################
+<?xml version="1.0" encoding="UTF-8"?>
+<hello
+xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<capabilities>
+<capability>urn:ietf:params:netconf:base:1.0</capability>
+</capabilities></hello>]]>]]>
+
+Get Running Config
+###########################
+<?xml version="1.0"?>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+message-id="101">
+<get-config>
+<source>
+<running/>
+</source>
+</get-config>
+</rpc>]]>]]>
+
+Hostname Filter:
+###########################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <get-config>
+    <source>
+      <running/>
+    </source>
+    <filter>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <hostname/>
+      </native>
+    </filter>
+  </get-config>
+</rpc>
+
+Edit Hostname:
+############################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <hostname>CSR173-New</hostname>
+      </native>
+    </config>
+  </edit-config>
+</rpc>
+
+Save Config:
+#############################
+<?xml version="1.0" encoding="utf-8"?>
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="103">
+  <cisco-ia:save-config xmlns:cisco-ia="http://cisco.com/yang/cisco-ia"/>
+</rpc>
+
+save = """<cisco-ia:save-config xmlns:cisco-ia="http://cisco.com/yang/cisco-ia"/>"""
+rtr_mgr.dispatch(xml_.to_ele(save))
+
+Interface Config:
+############################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <interface>
+          <GigabitEthernet>
+            <name>2</name>
+            <ip>
+              <address>
+                <primary>
+                  <address>23.3.3.3</address>
+                  <mask>255.255.255.0</mask>
+                </primary>
+              </address>
+            </ip>
+          </GigabitEthernet>
+        </interface>
+      </native>
+    </config>
+  </edit-config>
+</rpc>
+
+Get Username
+#############################################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <get-config>
+    <source>
+      <running/>
+    </source>
+    <filter>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <username/>
+      </native>
+    </filter>
+  </get-config>
+</rpc>
+
+Add Username:
+#############################################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <username>
+          <name>netconf_user</name>
+          <privilege>15</privilege>
+          <secret>
+            <secret>netconf123</secret>
+          </secret>
+        </username>
+      </native>
+    </config>
+  </edit-config>
+</rpc>
+
+Delete Username:
+################################################
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <edit-config>
+    <target>
+      <running/>
+    </target>
+    <config>
+      <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <username xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" nc:operation="delete">
+          <name>netconf_user</name>
+        </username>
+      </native>
+    </config>
+  </edit-config>
+</rpc>
+

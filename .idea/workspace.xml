@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fde20167-6c4c-48da-ac2e-6d6fdeff3e89" name="Changes" comment="" />
+    <list default="true" id="fde20167-6c4c-48da-ac2e-6d6fdeff3e89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/01_get_netconf_capabilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/02_get_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/03_filter_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/04_configure_hostname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/05_configure_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/06_filter_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/07_add_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/08_delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/09_save_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/10_save_pretty_xml_to_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/11_save_interface_filter_to_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_NETCONF/12_parse_xml_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_data_serialization_and_templates/03_xml_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_data_serialization_and_templates/03_xml_file.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,17 +45,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/evolve/Documents/GitHub/Automation-MasterClass-NetworkEvolution/20_Nornir",
+    "last_opened_file_path": "/home/evolve/Documents/GitHub/Automation-MasterClass-NetworkEvolution/21_NETCONF",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21_NETCONF" />
       <recent name="$PROJECT_DIR$/20_Nornir" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/02_IP_Address" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D04/01_Regex" />
       <recent name="$PROJECT_DIR$/../../Scripts/Automation_Training_Oct/D03/01_Regex" />
-      <recent name="$PROJECT_DIR$/17_Netmiko" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/PycharmProjects/Automation_Training_Oct/D02" />
@@ -50,8 +65,8 @@
       <recent name="$PROJECT_DIR$/D01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_multiple_tasks_function">
-    <configuration name="06_tasks_napalm_get_and_cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.12_parse_xml_data">
+    <configuration name="08_delete_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_NETCONF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/06_tasks_napalm_get_and_cli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_NETCONF/08_delete_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_task_napalm_configure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="09_save_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_NETCONF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/07_task_napalm_configure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_NETCONF/09_save_config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08_Netmiko_send_command" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_save_pretty_xml_to_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_NETCONF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/08_Netmiko_send_command.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_NETCONF/10_save_pretty_xml_to_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_netmiko_send_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11_save_interface_filter_to_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_NETCONF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/09_netmiko_send_config.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_NETCONF/11_save_interface_filter_to_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_multiple_tasks_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_parse_xml_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation-MasterClass-NetworkEvolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_Nornir" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_NETCONF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_Nornir/10_multiple_tasks_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_NETCONF/12_parse_xml_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10_multiple_tasks_function" />
-        <item itemvalue="Python.09_netmiko_send_config" />
-        <item itemvalue="Python.08_Netmiko_send_command" />
-        <item itemvalue="Python.07_task_napalm_configure" />
-        <item itemvalue="Python.06_tasks_napalm_get_and_cli" />
+        <item itemvalue="Python.12_parse_xml_data" />
+        <item itemvalue="Python.11_save_interface_filter_to_file" />
+        <item itemvalue="Python.10_save_pretty_xml_to_file" />
+        <item itemvalue="Python.09_save_config" />
+        <item itemvalue="Python.08_delete_user" />
       </list>
     </recent_temporary>
   </component>

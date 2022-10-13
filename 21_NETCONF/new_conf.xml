@@ -1,0 +1,811 @@
+<?xml version="1.0" ?>
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="urn:uuid:8c41c916-eaf9-48ba-a86c-6fc38d0e5255">
+  <data>
+    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+      <version>17.3</version>
+      <boot-start-marker/>
+      <boot-end-marker/>
+      <memory>
+        <free>
+          <low-watermark>
+            <processor>71497</processor>
+          </low-watermark>
+        </free>
+      </memory>
+      <call-home>
+        <contact-email-addr xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-call-home">sch-smart-licensing@cisco.com</contact-email-addr>
+        <tac-profile xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-call-home">
+          <profile>
+            <CiscoTAC-1>
+              <active>true</active>
+              <destination>
+                <transport-method>http</transport-method>
+              </destination>
+            </CiscoTAC-1>
+          </profile>
+        </tac-profile>
+      </call-home>
+      <service>
+        <timestamps>
+          <debug>
+            <datetime>
+              <msec/>
+            </datetime>
+          </debug>
+          <log>
+            <datetime>
+              <msec/>
+            </datetime>
+          </log>
+        </timestamps>
+        <call-home/>
+        <config/>
+      </service>
+      <platform>
+        <console xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-platform">
+          <output>serial</output>
+        </console>
+        <qfp xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-platform">
+          <utilization>
+            <monitor>
+              <load>80</load>
+            </monitor>
+          </utilization>
+        </qfp>
+        <punt-keepalive xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-platform">
+          <disable-kernel-core>true</disable-kernel-core>
+        </punt-keepalive>
+      </platform>
+      <hostname>CSR-173</hostname>
+      <archive>
+        <path>bootflash:</path>
+      </archive>
+      <username>
+        <name>admin</name>
+        <privilege>15</privilege>
+        <secret>
+          <encryption>9</encryption>
+          <secret>$9$JrGeAo16/Cr.6E$z5n.3UQWxsYnFJ7tALWqi8nljBcSDkfwV7CfHUibh.c</secret>
+        </secret>
+      </username>
+      <username>
+        <name>admin1</name>
+        <privilege>15</privilege>
+        <secret>
+          <encryption>9</encryption>
+          <secret>$9$/5xCZwejA6hFSU$IYyiGLxD/uy6qpKaqQ0/U6tBc3RDPQhMA0phFdDk6IU</secret>
+        </secret>
+      </username>
+      <username>
+        <name>admin2</name>
+        <privilege>15</privilege>
+      </username>
+      <username>
+        <name>admin3</name>
+        <privilege>15</privilege>
+      </username>
+      <ip>
+        <domain>
+          <name>test2.com</name>
+        </domain>
+        <forward-protocol>
+          <protocol>nd</protocol>
+        </forward-protocol>
+        <ftp>
+          <passive/>
+        </ftp>
+        <multicast>
+          <route-limit xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-multicast">2147483647</route-limit>
+        </multicast>
+        <route>
+          <ip-route-interface-forwarding-list>
+            <prefix>0.0.0.0</prefix>
+            <mask>0.0.0.0</mask>
+            <fwd-list>
+              <fwd>192.168.0.1</fwd>
+            </fwd-list>
+          </ip-route-interface-forwarding-list>
+        </route>
+        <scp>
+          <server>
+            <enable/>
+          </server>
+        </scp>
+        <ssh>
+          <pubkey-chain>
+            <username>
+              <name>admin2</name>
+              <key-hash>
+                <key-type>ssh-rsa</key-type>
+                <key-hash-value>F1973AAD0DB73774C2E0786C8C3F1C41 evolve@UbuntuOS</key-hash-value>
+              </key-hash>
+            </username>
+          </pubkey-chain>
+        </ssh>
+        <http xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-http">
+          <authentication>
+            <local/>
+          </authentication>
+          <server>true</server>
+          <secure-server>true</secure-server>
+          <client>
+            <source-interface>GigabitEthernet1</source-interface>
+          </client>
+        </http>
+        <nbar xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-nbar">
+          <classification>
+            <dns>
+              <classify-by-domain/>
+            </dns>
+          </classification>
+        </nbar>
+      </ip>
+      <interface>
+        <GigabitEthernet>
+          <name>1</name>
+          <ip>
+            <address>
+              <primary>
+                <address>192.168.0.63</address>
+                <mask>255.255.255.0</mask>
+              </primary>
+            </address>
+          </ip>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+          <mop>
+            <enabled>false</enabled>
+            <sysid>false</sysid>
+          </mop>
+          <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+            <auto>true</auto>
+          </negotiation>
+        </GigabitEthernet>
+        <GigabitEthernet>
+          <name>2</name>
+          <ip>
+            <address>
+              <primary>
+                <address>22.2.2.2</address>
+                <mask>255.255.255.0</mask>
+              </primary>
+            </address>
+          </ip>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+          <mop>
+            <enabled>false</enabled>
+            <sysid>false</sysid>
+          </mop>
+          <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+            <auto>true</auto>
+          </negotiation>
+        </GigabitEthernet>
+        <GigabitEthernet>
+          <name>3</name>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+          <mop>
+            <enabled>false</enabled>
+            <sysid>false</sysid>
+          </mop>
+          <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+            <auto>true</auto>
+          </negotiation>
+        </GigabitEthernet>
+        <GigabitEthernet>
+          <name>4</name>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+          <mop>
+            <enabled>false</enabled>
+            <sysid>false</sysid>
+          </mop>
+          <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+            <auto>true</auto>
+          </negotiation>
+        </GigabitEthernet>
+        <Loopback>
+          <name>1001</name>
+          <ip>
+            <address>
+              <primary>
+                <address>1.1.1.10</address>
+                <mask>255.255.255.0</mask>
+              </primary>
+            </address>
+          </ip>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+        </Loopback>
+        <Loopback>
+          <name>1003</name>
+          <ip>
+            <address>
+              <primary>
+                <address>2.1.1.1</address>
+                <mask>255.255.255.0</mask>
+              </primary>
+            </address>
+          </ip>
+          <logging>
+            <event>
+              <link-status/>
+            </event>
+          </logging>
+        </Loopback>
+      </interface>
+      <control-plane/>
+      <logging>
+        <monitor-conf>
+          <monitor>false</monitor>
+        </monitor-conf>
+        <console-config>
+          <console>false</console>
+        </console-config>
+        <console-conf>
+          <console>false</console>
+        </console-conf>
+      </logging>
+      <login>
+        <on-success>
+          <log/>
+        </on-success>
+      </login>
+      <multilink>
+        <bundle-name xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ppp">authenticated</bundle-name>
+      </multilink>
+      <redundancy/>
+      <spanning-tree>
+        <extend xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-spanning-tree">
+          <system-id/>
+        </extend>
+      </spanning-tree>
+      <subscriber>
+        <templating/>
+      </subscriber>
+      <ethernet>
+        <cfm xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ethernet">
+          <alarm>
+            <delay>2500</delay>
+            <reset>10000</reset>
+          </alarm>
+        </cfm>
+      </ethernet>
+      <crypto>
+        <pki xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-crypto">
+          <certificate>
+            <chain>
+              <name>SLA-TrustPoint</name>
+              <certificate>
+                <serial>01</serial>
+                <certtype>ca</certtype>
+              </certificate>
+            </chain>
+            <chain>
+              <name>TP-self-signed-1106392104</name>
+              <certificate>
+                <serial>01</serial>
+                <certtype>self-signed</certtype>
+              </certificate>
+            </chain>
+            <pool>
+              <cabundle>nvram:ios_core.p7b</cabundle>
+            </pool>
+          </certificate>
+          <trustpoint>
+            <id>SLA-TrustPoint</id>
+            <enrollment>
+              <pkcs12/>
+            </enrollment>
+            <revocation-check>crl</revocation-check>
+          </trustpoint>
+          <trustpoint>
+            <id>TP-self-signed-1106392104</id>
+            <enrollment>
+              <selfsigned/>
+            </enrollment>
+            <revocation-check>none</revocation-check>
+            <subject-name>cn=IOS-Self-Signed-Certificate-1106392104</subject-name>
+          </trustpoint>
+        </pki>
+      </crypto>
+      <license>
+        <udi>
+          <pid>CSR1000V</pid>
+          <sn>90OR9CH8IZ7</sn>
+        </udi>
+      </license>
+      <line>
+        <console>
+          <first>0</first>
+          <exec-timeout>
+            <minutes>0</minutes>
+            <seconds>0</seconds>
+          </exec-timeout>
+          <stopbits>1</stopbits>
+        </console>
+        <vty>
+          <first>0</first>
+          <last>4</last>
+          <exec-timeout>
+            <minutes>0</minutes>
+            <seconds>0</seconds>
+          </exec-timeout>
+          <login>
+            <local/>
+          </login>
+          <transport>
+            <input>
+              <all/>
+            </input>
+          </transport>
+        </vty>
+      </line>
+      <diagnostic xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-diagnostics">
+        <bootup>
+          <level>minimal</level>
+        </bootup>
+      </diagnostic>
+    </native>
+    <netconf-yang xmlns="http://cisco.com/yang/cisco-self-mgmt">
+      <cisco-ia xmlns="http://cisco.com/yang/cisco-ia">
+        <snmp-trap-control>
+          <global-forwarding>true</global-forwarding>
+        </snmp-trap-control>
+        <snmp-community-string>private</snmp-community-string>
+      </cisco-ia>
+    </netconf-yang>
+    <licensing xmlns="http://cisco.com/ns/yang/cisco-smart-license">
+      <config>
+        <enable>false</enable>
+        <privacy>
+          <hostname>false</hostname>
+          <version>false</version>
+        </privacy>
+        <utility>
+          <utility-enable>false</utility-enable>
+        </utility>
+      </config>
+    </licensing>
+    <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+      <interface>
+        <name>GigabitEthernet1</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+          <address>
+            <ip>192.168.0.63</ip>
+            <netmask>255.255.255.0</netmask>
+          </address>
+        </ipv4>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+      <interface>
+        <name>GigabitEthernet2</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+          <address>
+            <ip>22.2.2.2</ip>
+            <netmask>255.255.255.0</netmask>
+          </address>
+        </ipv4>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+      <interface>
+        <name>GigabitEthernet3</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+      <interface>
+        <name>GigabitEthernet4</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+      <interface>
+        <name>Loopback1001</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+          <address>
+            <ip>1.1.1.10</ip>
+            <netmask>255.255.255.0</netmask>
+          </address>
+        </ipv4>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+      <interface>
+        <name>Loopback1003</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+        <enabled>true</enabled>
+        <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+          <address>
+            <ip>2.1.1.1</ip>
+            <netmask>255.255.255.0</netmask>
+          </address>
+        </ipv4>
+        <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+      </interface>
+    </interfaces>
+    <nacm xmlns="urn:ietf:params:xml:ns:yang:ietf-netconf-acm">
+      <enable-nacm>true</enable-nacm>
+      <read-default>deny</read-default>
+      <write-default>deny</write-default>
+      <exec-default>deny</exec-default>
+      <enable-external-groups>true</enable-external-groups>
+      <rule-list>
+        <name>admin</name>
+        <group>PRIV15</group>
+        <rule>
+          <name>permit-all</name>
+          <module-name>*</module-name>
+          <access-operations>*</access-operations>
+          <action>permit</action>
+        </rule>
+      </rule-list>
+    </nacm>
+    <routing xmlns="urn:ietf:params:xml:ns:yang:ietf-routing">
+      <routing-instance>
+        <name>default</name>
+        <description>default-vrf [read-only]</description>
+        <routing-protocols>
+          <routing-protocol>
+            <type>static</type>
+            <name>1</name>
+            <static-routes>
+              <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing">
+                <route>
+                  <destination-prefix>0.0.0.0/0</destination-prefix>
+                  <next-hop>
+                    <next-hop-address>192.168.0.1</next-hop-address>
+                  </next-hop>
+                </route>
+              </ipv4>
+            </static-routes>
+          </routing-protocol>
+        </routing-protocols>
+      </routing-instance>
+    </routing>
+    <interfaces xmlns="http://openconfig.net/yang/interfaces">
+      <interface>
+        <name>GigabitEthernet1</name>
+        <config>
+          <name>GigabitEthernet1</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv4 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <addresses>
+                <address>
+                  <ip>192.168.0.63</ip>
+                  <config>
+                    <ip>192.168.0.63</ip>
+                    <prefix-length>24</prefix-length>
+                  </config>
+                </address>
+              </addresses>
+            </ipv4>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+        <ethernet xmlns="http://openconfig.net/yang/interfaces/ethernet">
+          <config>
+            <mac-address>50:00:00:07:00:00</mac-address>
+            <auto-negotiate>true</auto-negotiate>
+            <enable-flow-control>true</enable-flow-control>
+          </config>
+        </ethernet>
+      </interface>
+      <interface>
+        <name>GigabitEthernet2</name>
+        <config>
+          <name>GigabitEthernet2</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv4 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <addresses>
+                <address>
+                  <ip>22.2.2.2</ip>
+                  <config>
+                    <ip>22.2.2.2</ip>
+                    <prefix-length>24</prefix-length>
+                  </config>
+                </address>
+              </addresses>
+            </ipv4>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+        <ethernet xmlns="http://openconfig.net/yang/interfaces/ethernet">
+          <config>
+            <mac-address>50:00:00:07:00:01</mac-address>
+            <auto-negotiate>true</auto-negotiate>
+            <enable-flow-control>true</enable-flow-control>
+          </config>
+        </ethernet>
+      </interface>
+      <interface>
+        <name>GigabitEthernet3</name>
+        <config>
+          <name>GigabitEthernet3</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+        <ethernet xmlns="http://openconfig.net/yang/interfaces/ethernet">
+          <config>
+            <mac-address>50:00:00:07:00:02</mac-address>
+            <auto-negotiate>true</auto-negotiate>
+            <enable-flow-control>true</enable-flow-control>
+          </config>
+        </ethernet>
+      </interface>
+      <interface>
+        <name>GigabitEthernet4</name>
+        <config>
+          <name>GigabitEthernet4</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+        <ethernet xmlns="http://openconfig.net/yang/interfaces/ethernet">
+          <config>
+            <mac-address>50:00:00:07:00:03</mac-address>
+            <auto-negotiate>true</auto-negotiate>
+            <enable-flow-control>true</enable-flow-control>
+          </config>
+        </ethernet>
+      </interface>
+      <interface>
+        <name>Loopback1001</name>
+        <config>
+          <name>Loopback1001</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv4 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <addresses>
+                <address>
+                  <ip>1.1.1.10</ip>
+                  <config>
+                    <ip>1.1.1.10</ip>
+                    <prefix-length>24</prefix-length>
+                  </config>
+                </address>
+              </addresses>
+            </ipv4>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+      </interface>
+      <interface>
+        <name>Loopback1003</name>
+        <config>
+          <name>Loopback1003</name>
+          <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+          <enabled>true</enabled>
+        </config>
+        <subinterfaces>
+          <subinterface>
+            <index>0</index>
+            <config>
+              <index>0</index>
+              <enabled>true</enabled>
+            </config>
+            <ipv4 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <addresses>
+                <address>
+                  <ip>2.1.1.1</ip>
+                  <config>
+                    <ip>2.1.1.1</ip>
+                    <prefix-length>24</prefix-length>
+                  </config>
+                </address>
+              </addresses>
+            </ipv4>
+            <ipv6 xmlns="http://openconfig.net/yang/interfaces/ip">
+              <config>
+                <enabled>false</enabled>
+              </config>
+            </ipv6>
+          </subinterface>
+        </subinterfaces>
+      </interface>
+    </interfaces>
+    <lldp xmlns="http://openconfig.net/yang/lldp">
+      <config>
+        <enabled>false</enabled>
+      </config>
+      <interfaces>
+        <interface>
+          <name>GigabitEthernet1</name>
+          <config>
+            <name>GigabitEthernet1</name>
+            <enabled>true</enabled>
+          </config>
+        </interface>
+        <interface>
+          <name>GigabitEthernet2</name>
+          <config>
+            <name>GigabitEthernet2</name>
+            <enabled>true</enabled>
+          </config>
+        </interface>
+        <interface>
+          <name>GigabitEthernet3</name>
+          <config>
+            <name>GigabitEthernet3</name>
+            <enabled>true</enabled>
+          </config>
+        </interface>
+        <interface>
+          <name>GigabitEthernet4</name>
+          <config>
+            <name>GigabitEthernet4</name>
+            <enabled>true</enabled>
+          </config>
+        </interface>
+      </interfaces>
+    </lldp>
+    <network-instances xmlns="http://openconfig.net/yang/network-instance">
+      <network-instance>
+        <name>default</name>
+        <config>
+          <name>default</name>
+          <type xmlns:oc-ni-types="http://openconfig.net/yang/network-instance-types">oc-ni-types:DEFAULT_INSTANCE</type>
+          <description>default-vrf [read-only]</description>
+        </config>
+        <tables>
+          <table>
+            <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</protocol>
+            <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV4</address-family>
+            <config>
+              <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</protocol>
+              <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV4</address-family>
+            </config>
+          </table>
+          <table>
+            <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</protocol>
+            <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV6</address-family>
+            <config>
+              <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</protocol>
+              <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV6</address-family>
+            </config>
+          </table>
+          <table>
+            <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</protocol>
+            <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV4</address-family>
+            <config>
+              <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</protocol>
+              <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV4</address-family>
+            </config>
+          </table>
+          <table>
+            <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</protocol>
+            <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV6</address-family>
+            <config>
+              <protocol xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</protocol>
+              <address-family xmlns:oc-types="http://openconfig.net/yang/openconfig-types">oc-types:IPV6</address-family>
+            </config>
+          </table>
+        </tables>
+        <protocols>
+          <protocol>
+            <identifier xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</identifier>
+            <name>DEFAULT</name>
+            <config>
+              <identifier xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:STATIC</identifier>
+              <name>DEFAULT</name>
+            </config>
+            <static-routes>
+              <static>
+                <prefix>0.0.0.0/0</prefix>
+                <config>
+                  <prefix>0.0.0.0/0</prefix>
+                </config>
+                <next-hops>
+                  <next-hop>
+                    <index>192.168.0.1</index>
+                    <config>
+                      <index>192.168.0.1</index>
+                      <next-hop>192.168.0.1</next-hop>
+                      <metric>1</metric>
+                    </config>
+                  </next-hop>
+                </next-hops>
+              </static>
+            </static-routes>
+          </protocol>
+          <protocol>
+            <identifier xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</identifier>
+            <name>DEFAULT</name>
+            <config>
+              <identifier xmlns:oc-pol-types="http://openconfig.net/yang/policy-types">oc-pol-types:DIRECTLY_CONNECTED</identifier>
+              <name>DEFAULT</name>
+            </config>
+          </protocol>
+        </protocols>
+      </network-instance>
+    </network-instances>
+  </data>
+</rpc-reply>

@@ -34,8 +34,8 @@ from lab_inventory import *
 import xml.etree.ElementTree as ET
 tree = ET.parse('all_int.xml')
 root = tree.getroot()
-print(root[0][0][0][1][0].text)
-print(root[0][0][0][1][1][0][0][0].text)
+# print(root[0][0][0][1][0].text)
+# print(root[0][0][0][1][1][0][0][0].text)
 
 n = int(input("Enter Interface Number:"))
 n = n - 1
